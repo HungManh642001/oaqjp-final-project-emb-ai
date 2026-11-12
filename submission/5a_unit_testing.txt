@@ -3,7 +3,7 @@
 import os
 import unittest
 
-from EmotionDetection import emotion_detector
+from EmotionDetection.emotion_detection import emotion_detector
 
 
 @unittest.skipUnless(

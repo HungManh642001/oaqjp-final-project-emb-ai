@@ -30,6 +30,6 @@ test_sadness (test_emotion_detection.TestEmotionDetection.test_sadness)
 Câu diễn đạt buồn bã phải có cảm xúc chủ đạo sadness. ... skipped 'Requires the real Watson API in Skills Network; set RUN_WATSON_INTEGRATION=1'
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.118s
+Ran 15 tests in 0.094s
 
 OK (skipped=5)

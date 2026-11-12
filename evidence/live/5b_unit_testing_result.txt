@@ -10,6 +10,6 @@ test_sadness (test_emotion_detection.TestEmotionDetection)
 Câu diễn đạt buồn bã phải có cảm xúc chủ đạo sadness. ... ok
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.550s
+Ran 5 tests in 0.590s
 
 OK
