@@ -1,0 +1,35 @@
+test_bad_request_returns_none_before_json_decode (test_contracts.TestWatsonContract.test_bad_request_returns_none_before_json_decode)
+HTTP 400 có thể không chứa JSON nhưng vẫn trả đủ khóa với None. ... ok
+test_invalid_scores_are_not_valid_predictions (test_contracts.TestWatsonContract.test_invalid_scores_are_not_valid_predictions)
+Điểm không phải số hữu hạn trong khoảng 0..1 phải bị từ chối. ... ok
+test_malformed_payload_reports_value_error (test_contracts.TestWatsonContract.test_malformed_payload_reports_value_error)
+Phản hồi thiếu emotionPredictions gây lỗi dữ liệu có kiểm soát. ... ok
+test_scores_and_dominant_emotion (test_contracts.TestWatsonContract.test_scores_and_dominant_emotion)
+Đọc điểm từ phản hồi Watson và chọn cảm xúc có điểm cao nhất. ... ok
+test_upstream_http_failure_is_not_a_valid_emotion (test_contracts.TestWatsonContract.test_upstream_http_failure_is_not_a_valid_emotion)
+HTTP 503 không được diễn giải thành kết quả hợp lệ. ... ok
+test_home_serves_provided_frontend (test_contracts.TestWebContract.test_home_serves_provided_frontend)
+Trang chủ phải chứa ô nhập của giao diện IBM. ... ok
+test_missing_or_whitespace_input_displays_invalid_message (test_contracts.TestWebContract.test_missing_or_whitespace_input_displays_invalid_message)
+Giá trị thiếu, rỗng và chỉ có khoảng trắng đều bị từ chối. ... ok
+test_network_failure_returns_retryable_error (test_contracts.TestWebContract.test_network_failure_returns_retryable_error)
+Lỗi mạng không được trả dưới dạng kết quả cảm xúc giả. ... ok
+test_null_dominant_emotion_displays_invalid_message (test_contracts.TestWebContract.test_null_dominant_emotion_displays_invalid_message)
+Kết quả None của Watson được đổi thành thông báo theo đề. ... ok
+test_prediction_matches_required_display (test_contracts.TestWebContract.test_prediction_matches_required_display)
+Route phải đọc textToAnalyze và hiển thị đủ năm điểm cảm xúc. ... ok
+test_anger (test_emotion_detection.TestEmotionDetection.test_anger)
+Câu diễn đạt tức giận phải có cảm xúc chủ đạo anger. ... skipped 'Requires the real Watson API in Skills Network; set RUN_WATSON_INTEGRATION=1'
+test_disgust (test_emotion_detection.TestEmotionDetection.test_disgust)
+Câu diễn đạt ghê tởm phải có cảm xúc chủ đạo disgust. ... skipped 'Requires the real Watson API in Skills Network; set RUN_WATSON_INTEGRATION=1'
+test_fear (test_emotion_detection.TestEmotionDetection.test_fear)
+Câu diễn đạt sợ hãi phải có cảm xúc chủ đạo fear. ... skipped 'Requires the real Watson API in Skills Network; set RUN_WATSON_INTEGRATION=1'
+test_joy (test_emotion_detection.TestEmotionDetection.test_joy)
+Câu diễn đạt sự vui mừng phải có cảm xúc chủ đạo joy. ... skipped 'Requires the real Watson API in Skills Network; set RUN_WATSON_INTEGRATION=1'
+test_sadness (test_emotion_detection.TestEmotionDetection.test_sadness)
+Câu diễn đạt buồn bã phải có cảm xúc chủ đạo sadness. ... skipped 'Requires the real Watson API in Skills Network; set RUN_WATSON_INTEGRATION=1'
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.166s
+
+OK (skipped=5)

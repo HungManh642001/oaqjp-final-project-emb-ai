@@ -1,0 +1,15 @@
+test_anger (test_emotion_detection.TestEmotionDetection)
+Câu diễn đạt tức giận phải có cảm xúc chủ đạo anger. ... ok
+test_disgust (test_emotion_detection.TestEmotionDetection)
+Câu diễn đạt ghê tởm phải có cảm xúc chủ đạo disgust. ... ok
+test_fear (test_emotion_detection.TestEmotionDetection)
+Câu diễn đạt sợ hãi phải có cảm xúc chủ đạo fear. ... ok
+test_joy (test_emotion_detection.TestEmotionDetection)
+Câu diễn đạt sự vui mừng phải có cảm xúc chủ đạo joy. ... ok
+test_sadness (test_emotion_detection.TestEmotionDetection)
+Câu diễn đạt buồn bã phải có cảm xúc chủ đạo sadness. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.550s
+
+OK
