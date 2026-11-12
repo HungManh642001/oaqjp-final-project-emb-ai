@@ -1,0 +1,12 @@
+Script started on 2026-11-12 04:17:49-05:00 [TERM="xterm-color" TTY="/dev/pts/1" COLUMNS="80" LINES="18"]
+[?2004hbash-5.1$ PS1='\w$ '
+[?2004l
+[?2004h/home/project/final_project$ python3 -c "from EmotionDetection.emotion_detection 
+ import emotion_detector; print(emotion_detector('I am very angry'))"
+[?2004l
+{'anger': 0.97299534, 'disgust': 0.007920562, 'fear': 0.021403823, 'joy': 0.0111511685, 'sadness': 0.047718644, 'dominant_emotion': 'anger'}
+[?2004h/home/project/final_project$ exit
+[?2004l
+exit
+
+Script done on 2026-11-12 04:17:52-05:00 [COMMAND_EXIT_CODE="0"]

@@ -1,1 +1,12 @@
-{'anger': 0.64949876, 'disgust': 0.03718168, 'fear': 0.05612277, 'joy': 0.00862553, 'sadness': 0.1955148, 'dominant_emotion': 'anger'}
+Script started on 2026-11-12 04:17:49-05:00 [TERM="xterm-color" TTY="/dev/pts/1" COLUMNS="80" LINES="18"]
+bash-5.1$ PS1='\w$ '
+
+/home/project/final_project$ python3 -c "from EmotionDetection.emotion_detection 
+ import emotion_detector; print(emotion_detector('I am very angry'))"
+
+{'anger': 0.97299534, 'disgust': 0.007920562, 'fear': 0.021403823, 'joy': 0.0111511685, 'sadness': 0.047718644, 'dominant_emotion': 'anger'}
+/home/project/final_project$ exit
+
+exit
+
+Script done on 2026-11-12 04:17:52-05:00 [COMMAND_EXIT_CODE="0"]

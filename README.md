@@ -1,5 +1,7 @@
 # Final project
 
+**Final Project — Emotion Detector**
+
 Emotion detection web application for IBM's **Build & Deploy AI Applications with Python & Flask** course.
 
 ## Application
